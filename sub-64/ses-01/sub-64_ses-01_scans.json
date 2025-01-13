@@ -5,5 +5,8 @@
   "task_type": {
     "LongName": "task_type",
     "Description": "task type of the particular scan"
+  },
+  "operator": {
+    "Description": "Name of the operator"
   }
 }
