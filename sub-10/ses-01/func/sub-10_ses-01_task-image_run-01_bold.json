@@ -139,5 +139,6 @@
 	"ImageOrientationText": "Tra>Sag(-3.7)>Cor(-3.0)",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+"ConversionSoftwareVersion": "v1.0.20211006",
+"TaskName": "02"
 }
