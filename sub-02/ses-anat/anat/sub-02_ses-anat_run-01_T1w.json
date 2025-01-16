@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.208,
+	"ImagingFrequency": 123.208098,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Prisma",
 	"InstitutionName": "PLA No.988 Central Hospital",
@@ -21,6 +21,7 @@
 	"ScanOptions": "IR",
 	"SequenceName": "*tfl3d1_16ns",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM", "FM", "FIL"],
+	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 13,
 	"AcquisitionTime": "18:10:8.597500",
 	"AcquisitionNumber": 1,
@@ -70,5 +71,5 @@
 	"ImageOrientationText": "Sag>Cor(1.8)>Tra(-1.1)",
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20230411"
 }
