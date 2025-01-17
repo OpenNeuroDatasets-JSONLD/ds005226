@@ -7,5 +7,17 @@
     },
     "key_fix": {
       "Description": "Whether the participant pressed the button when seeing 1-back. 1 indicates that the button was pressed when seeing 1-back."
+    },
+    "levelOfOcclusion": {
+      "Description": "Stimulus type, where 0.1, 0.75, and 0.9 represent the image occlusion levels of 10%, 75%, and 90% respectively; n/a indicates no stimulus."
+    },
+    "stim_file": {
+      "Description": "Label of the stimulus, where 0 represents aircraft A, 1 represents aircraft B, and n/a indicates no stimulus."
+    },
+    "key_time": {
+      "Description": "Time of key press."
+    },
+    "key_type": {
+      "Description": "Type of key press, where 1 indicates selecting aircraft A, 0 indicates selecting aircraft B, and n/a indicates no key press."
     }
   }
