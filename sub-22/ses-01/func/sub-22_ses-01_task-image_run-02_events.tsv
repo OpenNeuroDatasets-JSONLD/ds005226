@@ -1,5 +1,5 @@
 onset	duration	stim_file	stim_lable	levelOfOcclusion	stim_started	stim_stopped	key_time	key_fix
-40	4	Aircraft1_10%_17.jpg	0	0.1	39.989	43.722	41.21	1
+40.01	4	Aircraft1_10%_17.jpg	0	0.1	39.989	43.722	41.21	1
 44	4	Aircraft2_10%_42.jpg	1	0.1	44.006	47.737	44.651	1
 48	4	Aircraft2_10%_44.jpg	1	0.1	48.004	51.735	48.671	1
 52	4	Aircraft1_10%_10.jpg	0	0.1	52.017	55.747	52.666	1
