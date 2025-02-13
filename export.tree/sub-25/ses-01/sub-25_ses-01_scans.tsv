@@ -1,0 +1,5 @@
+filename	task_type	operator
+func/sub-25_ses-01_task-image_run-01_bold.nii	image	n/a
+func/sub-25_ses-01_task-image_run-02_bold.nii	image	n/a
+func/sub-25_ses-01_task-rest_run-01_bold.nii	n/a	n/a
+func/sub-25_ses-01_task-rest_run-02_bold.nii	n/a	n/a
