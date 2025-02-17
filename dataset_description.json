@@ -26,8 +26,8 @@
         "Approval No.: 2022-168"
     ],
     "DatasetDOI": "doi:10.18112/openneuro.ds005226.v1.0.5",
-    "DatasetType": "MRI",
-    "GeneratedBy":"Henan Key Laboratory of Imaging and Intelligent Processing",
-    "SourceDatasets":"https://openneuro.org/datasets/ds005226"
+    "DatasetType": "anat, func",
+    "GeneratedBy": "Henan Key Laboratory of Imaging and Intelligent Processing",
+    "SourceDatasets": "https://openneuro.org/datasets/ds005226"
 
 }
