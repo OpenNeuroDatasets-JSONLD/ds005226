@@ -26,8 +26,6 @@
         "Approval No.: 2022-168"
     ],
     "DatasetDOI": "doi:10.18112/openneuro.ds005226.v1.0.5",
-    "DatasetType": "raw",
-    "GeneratedBy":["1"],
-    "SourceDatasets":["1"]
+    "DatasetType": "raw"
 
 }
