@@ -1,6 +1,5 @@
 {
-    "Name": "An fMRI Dataset on Occluded Image Interpretation for Human Amodal Completion Research",
-    "BIDSVersion": "1.0.2",
+    "Acknowledgements": "This research was supported by a Key Program of National Natural Science Foundation of China (#62106285).",
     "Authors": [
         "Bao Li",
         "Li Tong",
@@ -12,18 +11,23 @@
         "Linyuan Wang",
         "Bin Yan"
     ],
-    "EthicsApprovals": [
-        "Approval No.: 2022-168"
-    ],
-    "License": "CC0",
-    "Acknowledgements":  "This research was supported by a Key Program of National Natural Science Foundation of China (#62106285).",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005226.v1.0.7",
+    "BIDSVersion": "1.0.2",
     "Funding": [
         "Key Program of National Natural Science Foundation of China (62106285)"
     ],
-    "HowToAcknowledge": "Please cite doi:10.18112/openneuro.ds005226.v1.0.7",
+    "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
+    "License": "CC0",
+    "Name": "An fMRI Dataset on Occluded Image Interpretation for Human Amodal Completion Research",
     "ReferencesAndLinks": [
         "TODO",
         "List of papers or websites"
-    ]
+    ],
+    "EthicsApprovals": [
+        "Approval No.: 2022-168"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005226.v1.0.5",
+    "DatasetType": "raw",
+    "GeneratedBy":"1",
+    "SourceDatasets":"1"
+
 }
