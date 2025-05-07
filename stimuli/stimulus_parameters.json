@@ -1,0 +1,50 @@
+{
+	"StimuliParameters": {
+	  "BaseImages": {
+		"SourceDataset": "SynISAR",
+		"AircraftModels": [
+		  {
+			"ModelID": "Aircraft1",
+			"OriginalFrames": 181,
+			"SelectedFrames": 150,
+			"RotationRange": [0, 180],
+			"RotationIncrement": 1
+		  },
+		  {
+			"ModelID": "Aircraft2",
+			"OriginalFrames": 181,
+			"SelectedFrames": 150,
+			"RotationRange": [0, 180],
+			"RotationIncrement": 1
+		  }
+		]
+	  },
+	  "OcclusionParameters": {
+		"MaskType": "BlackSquare",
+		"PlacementMethod": "Random",
+		"OcclusionLevels": [
+		  {
+			"Percentage": 10,
+			"Description": "Baseline condition",
+			"ImagesPerModel": 50
+		  },
+		  {
+			"Percentage": 70,
+			"Description": "High occlusion",
+			"ImagesPerModel": 50
+		  },
+		  {
+			"Percentage": 90,
+			"Description": "Extreme occlusion",
+			"ImagesPerModel": 50
+		  }
+		],
+		"TotalStimuli": 300
+		}
+	  },
+	  "FileOrganization": {
+		"DirectoryStructure": "/stimuli/",
+		"NamingConvention": "ModelID_OcclusionLevel_InstanceNumber.jpg",
+		"Example": "Aircraft1_10%_14.jpg"
+	}
+  }
