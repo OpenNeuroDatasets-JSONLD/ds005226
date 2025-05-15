@@ -4,22 +4,12 @@ In everyday environments, partially occluded objects are more common than fully 
 
 **Data record**
 
-The data were organized according to the Brain-Imaging-Data-Structure (BIDS) Specification version 1.0.2 and can be accessed from the OpenNeuro public repository (accession number: XXX). In short, raw data of each subject were stored in “sub-<ID>” directories; The pre-processed volume data and the  surface-based data can be found in “derivatives/pre-processing” and “derivatives/volumetosurface” directories, respectively.
+Stimulus. The folder labeled as the "stimuli" contains the set of 300 stimulus images utilized throughout the experiment . This set comprises 150 images of aircraft A and 150 images of aircraft B, with varying levels of occlusion at 10%, 70%, and 90%. The complete stimulus generation pipeline (original images, masks, and processing code) is fully available in /derivatives/stimuli_dataset to support future research applications .
 
-*Stimulus*
-The stimulus for different fMRI experiments are stored as “stimuli”. 
+Raw MRI data. Each participant's directory contains 2 subfolders: “sub-<subID>/ses-anat” and “sub-<subID>/ses-01” . Within the “ses-anat” subfolder, there is a single folder named “anat”. The “ses-01” subfolder includes subfolder titled “func”. The scan details for the functional scan are stored in a file named “sub-<subID>_ses-01_scans.tsv”. The task events were recorded in files named “sub-<subID>/ses-01/func/sub-<subID>_ses-01_task-image_run-<runID>_events.tsv” for each individual task run.
 
-*Raw MRI data*
-Each participant's folder is comprised of 2 session folders: “sub-<subID>/ses-anat” ,“sub-<subID>/ses-01”.The “ses-anat” folder comprises one folders, named “anat”.The “ses-01” folder comprises two folders, named“func” or “fmap”.A “sub-<subID>/sub-<subID>_ses-01_scans.tsv” file stores the scan information for a scan session. The task events were saved as“sub-<subID>/func/sub-<subID>_ses-01_task-<taskID>_run-<runID>_events.tsv”for each run.
+Functional data from preprocessing. The preprocessed functional data was stored in the "derivatives/preprocessed_data/" folder. This folder contains four subfolders: "space-MNI", "space-T1w", "space-fsLR", and "space-fsnative", which respectively contain functional imaging data registered to different standard spaces.
 
-*Freesurfer recon-all*
-The results of reconstructing the Cortical Surface were saved as “derivatives/recon-all-FreeSurfer/sub-<subID>” folders.
+Structural data from preprocessing. The outcomes of cortical surface reconstruction were stored in folders named "recon-all-FreeSurfer/sub-<subID>" .
 
-*Pre-processed volume data from pre-processing*
-The pre-processed volume-based fMRI data were saved as“pre-processed_volume_data/sub-<subID>/ses-01/sub-<subID>_ses-01_task-<taskID>_volume_run-<runID>.nii”.
-
-*Preprocessed surface-based data*
-The pre-processed surface-based data were saved as “derivatives/volumetosurface/sub-<subID>/task-<taskID>_run-<index>_lh/rh.surfacedata.mat” for each run.
-
-*The technical validation of the NFED*
-The results of the technical validation were saved as “derivatives/validation/results” for each participant.The code of the technical validation were saved as “derivatives/validation/code”.
+Validation. The technical validation code was stored in the directory labeled "derivatives/validation/code". The outcomes of technical validation were saved in the folder named "derivatives/validation/results" .
